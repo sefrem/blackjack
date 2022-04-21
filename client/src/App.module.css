@@ -1,0 +1,37 @@
+
+:root {
+  --table-color-1: #939DC6;
+  --table-color-2: #848EB2;
+  --table-color-3: #69708C;
+  --table-color-4: #9A8A79;
+  --table-color-5: #4A4D61;
+  --table-color-6: #686F8A;
+  --card-border: #6666665c;
+  --card-red: #DD7678;
+  --card-position: 0;
+  --button-hit: #BFE698;
+  --button-hit-hover: #C8F0A0;
+  --button-stand: #F9E28E;
+  --button-stand-hover: #FFE895;
+  --coral: #EA748D;
+  --coral-dark: #F1869C;
+  --white: #f6f6f6;
+  --chip-shadow: rgba(37, 36, 47, 0.12);
+  --bet-border: rgba(255, 255, 255, 0.3);
+  --inactive: rgba(37, 36, 47, 0.6);
+  --gold: #F9E28E;
+  --transparent-black: rgba(37, 36, 47, 0.9);
+  --grey: rgba(255, 255, 255, 0.5);
+  --light-grey: rgba(255, 255, 255, 0.15);
+  --modal-bg: rgba(0,0,0,0.9);
+  --shadow: drop-shadow(-3px 10px 3px var(--chip-shadow));
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+

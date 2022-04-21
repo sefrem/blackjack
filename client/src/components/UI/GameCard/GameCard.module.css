@@ -1,0 +1,63 @@
+
+.card {
+    width: calc(11em * 0.71); /* 0.71 is a card sides proportion*/
+    height: 11em;
+    margin: 0.4em;
+    background: var(--white);
+    border-radius: 0.3em;
+    border: 1px solid var(--card-border);
+    box-shadow: 0.1em 0.5em 1.1em 0.1em rgba(20, 20, 20, 0.1);
+    position: relative;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+}
+
+.turnedCard {
+    transform: rotateY(180deg);
+}
+
+.cardFront {
+    position: absolute;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.cardBack {
+    padding: 0.5em;
+    transform: rotateY(180deg);
+}
+
+.cardBackPattern {
+    width: 100%;
+    height: 10em;
+}
+
+.cardValues {
+    max-width: 25%;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0.4em;
+}
+
+.cardValue {
+    margin-bottom: 0.1em;
+}
+
+.red {
+    color: var(--card-red);
+}
+
+.cardField {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.suitIcon {
+    width: 3em;
+}
+
+.suitIconSmall {
+    width: 0.8em;
+}
+

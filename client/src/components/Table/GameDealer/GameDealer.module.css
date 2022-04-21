@@ -1,0 +1,17 @@
+
+.dealer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dealerHand {
+    position: relative;
+}
+
+.dealerBadge {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+}

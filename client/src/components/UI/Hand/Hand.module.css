@@ -1,0 +1,49 @@
+
+.hand {
+    position: relative;
+    min-width: calc(12em * 0.71);
+    height: 13em;
+}
+
+.cardInHand {
+    position: absolute;
+   animation: dealCard 0.2s
+}
+
+.cardInHand-2 {
+    left: 30px;
+    transform: rotate(3deg);
+}
+
+.cardInHand-3 {
+    left: 70px;
+    transform: rotate(-4deg);
+}
+
+.cardInHand-4 {
+    left: 100px;
+    transform: rotate(4deg);
+}
+
+.cardInHand-5 {
+    left: 135px;
+    transform: rotate(-1deg);
+}
+
+.cardInHand-6 {
+    left: 170px;
+    transform: rotate(-3deg);
+}
+
+.cardInHand-7 {
+    left: 200px;
+}
+
+.cardInHand-8 {
+    left: 230px;
+}
+
+@keyframes dealCard {
+    from {transform: translate(100px, -1000px)}
+    to {transform: translate(0, 0)}
+}

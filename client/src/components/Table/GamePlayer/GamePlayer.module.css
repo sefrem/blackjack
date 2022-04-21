@@ -1,0 +1,53 @@
+
+.player {
+    min-width: 320px;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.playerHand {
+    align-self: center;
+    display: flex;
+    position: relative;
+}
+
+.playerActionButtons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -7.3em;
+}
+
+.buttonHit {
+    background: var(--button-hit);
+}
+
+.buttonHit:hover {
+    background: var(--button-hit-hover);
+}
+
+
+.buttonStand {
+    background: var(--button-stand);
+    margin-top: 0.8em;
+}
+
+.buttonStand:hover {
+    background: var(--button-stand-hover);
+}
+
+.statusBadge {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+    filter: var(--shadow);
+}
+
+.playerDataWrapper {
+    margin-top: 1.1em;
+    align-self: center;
+}
+
+
