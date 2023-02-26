@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "dist/server.js",
   "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node dist/server.js",
     "start-dev": "ts-node src/index.ts",
